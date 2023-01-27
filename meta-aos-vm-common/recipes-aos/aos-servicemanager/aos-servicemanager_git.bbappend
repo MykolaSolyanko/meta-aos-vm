@@ -5,6 +5,11 @@ SRC_URI += " \
     file://aos-dirs-service.conf \
 "
 
+GO_IMPORT = "github.com/MykolaSolyanko/aos_servicemanager"
+
+BRANCH = "ping"
+SRCREV = "d0cacf8d37413ff05f80ad76477c4153a75c05fa"
+
 FILES_${PN} += " \
     ${sysconfdir}/systemd/system/aos-servicemanager.service.d/ \
 "
