@@ -1,5 +1,10 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
+GO_IMPORT = "github.com/MykolaSolyanko/aos_servicemanager"
+
+BRANCH = "ping"
+SRCREV = "d0cacf8d37413ff05f80ad76477c4153a75c05fa"
+
 SRC_URI += " \
     file://ipforwarding.conf \
     file://aos-dirs-service.conf \
