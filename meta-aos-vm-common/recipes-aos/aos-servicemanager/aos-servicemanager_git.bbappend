@@ -1,5 +1,11 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
+BRANCH = "impl_vlan"
+
+GO_IMPORT = "github.com/MykolaSolyanko/aos_servicemanager"
+
+SRCREV = "4e820ec6094f52f89c37eeba7009ffc4737e2cf8"
+
 SRC_URI += " \
     file://ipforwarding.conf \
     file://aos-dirs-service.conf \

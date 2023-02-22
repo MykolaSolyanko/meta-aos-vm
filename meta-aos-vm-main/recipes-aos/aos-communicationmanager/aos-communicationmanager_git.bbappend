@@ -1,5 +1,11 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
+BRANCH = "NM_implementation"
+
+GO_IMPORT = "github.com/MykolaSolyanko/aos_communicationmanager"
+
+SRCREV = "bafe15d382627d6d655df2aa5097b14935130ad9"
+
 SRC_URI += " \
     file://aos-dirs-service.conf \
 "
