@@ -1,6 +1,7 @@
 # AOS packages
 IMAGE_INSTALL_append = " \
     aos-communicationmanager \
+    aos-message-proxy \
     aos-iamanager \
     aos-servicemanager \
     aos-updatemanager \
