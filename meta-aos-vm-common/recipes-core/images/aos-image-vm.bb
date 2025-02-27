@@ -21,6 +21,10 @@ IMAGE_INSTALL:append = " \
     netconfig \
     openssh \
     tzdata \
+    net-tools \
+    lsof \
+    inetutils-telnet \
+    inetutils-telnetd \
 "
 
 # Set fixed rootfs size
