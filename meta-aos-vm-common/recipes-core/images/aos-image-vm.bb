@@ -25,6 +25,10 @@ IMAGE_INSTALL:append = " \
     lsof \
     inetutils-telnet \
     inetutils-telnetd \
+    iproute2 \
+    tcpdump \
+    iproute2-tc \
+    wget \
 "
 
 # Set fixed rootfs size
