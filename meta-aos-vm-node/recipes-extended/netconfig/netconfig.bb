@@ -12,4 +12,8 @@ SRC_URI += " \
 do_install:append() {
     install -d ${D}${sysconfdir}/systemd/network/
     install -m 0644 ${WORKDIR}/wired.network ${D}${sysconfdir}/systemd/network/20-wired.network
+
+    if [ ${AOS_USE_DHCP} = "1" ]; then
+        echo "DHCP=yes" >> ${D}${sysconfdir}/systemd/network/20-wired.network
+    fi
 }

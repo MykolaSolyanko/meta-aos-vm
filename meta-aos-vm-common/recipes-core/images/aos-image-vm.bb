@@ -19,11 +19,16 @@ IMAGE_INSTALL:append = " \
     iperf3 \
     iproute2 \
     iproute2-tc \
+    avahi-daemon \
+    avahi-autoipd \
+    avahi-utils \
     mc \
     netconfig \
     openssh \
     tzdata \
     wget \
+    tcpdump \
+    glibc-utils \
 "
 
 # Set fixed rootfs size
